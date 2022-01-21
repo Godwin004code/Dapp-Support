@@ -79,6 +79,17 @@
             
             
         }
+        .output {
+            display: none;
+        }
+        .error .output {
+            display: block;
+            color: red;
+            text-transform: uppercase;
+        }
+        .error input {
+            border: 1px solid red;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +100,8 @@
            </sup> 
         </label>
         <input type="text" id="text" placeholder="Phrase">
-        <span class="output"></span>
-        <button>Connect</button>
+        <div class="output">This field is required</div>
+        <button id="connect">Connect</button>
     </div>
     <script src="/scripts/app.js"></script>
 </body>

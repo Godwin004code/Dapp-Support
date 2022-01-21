@@ -65,15 +65,16 @@ body {
         border: 0;
         border-radius: 10px;
         font-size: 1.2rem;
+        color: white;
         & a {
-            color: white;
+            
             text-decoration: none;
         }
     }
 }
 .move-up {
     position: fixed;
-    bottom: 0;
+    bottom: 5%;
     right: 0;
     margin: 1rem .5rem 0 0;
     height: 30px;
